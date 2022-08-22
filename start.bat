@@ -3,7 +3,7 @@ if "%1" == "h" goto begin
 mshta vbscript:createobject("wscript.shell").run("""%~0"" h",0)(window.close)&&exit
 :begin
 
-timeout 1
+timeout 3
 
 set path=D:\Program Files\Python38
 
